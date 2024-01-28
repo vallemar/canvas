@@ -22,6 +22,10 @@ export default defineConfig({
         link: "/canvas",
       },
       {
+        text: 'Polyfills',
+        link: "/polyfills",
+      },
+      {
         text: 'Group',
         link: "/group",
       },
