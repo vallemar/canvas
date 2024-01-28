@@ -60,3 +60,12 @@ export function canvasReady(args) {
 - 2D Similar to -> the [Web Spec](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)
 - WebGL Similar to -> the [Web Spec](https://developer.mozilla.org/en-US/docs/Web/API/WebGLRenderingContext)
 - WebGL2 Similar to -> the [Web Spec](https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext)
+
+
+## Docs
+
+To run the documentation locally, go to the root of the project and run the next command.
+
+```
+npm run docs:dev
+```
