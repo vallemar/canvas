@@ -15,11 +15,43 @@ hero:
       link: /examples
 
 features:
-  - title: Feature A
+  - title: Totally Native
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Familiar
+    details: NativeScript Canvas implements the same API as html canvas
+  - title: WEBGL
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: 2D & 3D
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+
+
+
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
+import Preview from './.vitepress/theme/components/Preview.vue'
+
+const members = [
+  {
+    avatar: 'https://avatars.githubusercontent.com/u/6695919?v=4',
+    name: 'triniwiz',
+    title: 'Creator',
+    links: [
+      { icon: 'github', link: 'https://github.com/triniwiz' },
+      { icon: 'twitter', link: 'https://twitter.com/triniwiz' }
+    ]
+  },
+
+]
+</script>
+
+<Preview />
+
+<div class="flex justify-center mt-12">
+<h3 class="text-2xl">Team</h3>
+</div>
+
+
+
+<VPTeamMembers size="small" :members="members" />

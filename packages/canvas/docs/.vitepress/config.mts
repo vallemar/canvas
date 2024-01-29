@@ -2,6 +2,15 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  head: [
+    [
+      'script',
+      {
+        async: 'false',
+        src: 'https://unpkg.com/@vueuse/core',
+      },
+    ],
+  ],
   title: "NativeScript Canvas",
   description: "Native Canvas for NativeScript",
   themeConfig: {
@@ -66,6 +75,9 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vallemar/canvas' },
       { icon: 'discord', link: 'https://discord.com/invite/RgmpGky9GR' },
-    ]
+    ],
+    search: {
+      provider: 'local',
+    },
   }
 })
