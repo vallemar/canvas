@@ -20,8 +20,8 @@ Draws a circle.
 ```ts
 import { registerElement } from 'nativescript-vue';
 
-registerElement("Dom", () => require("@nativescript/canvas/Dom/index").Dom)
-registerElement("Circle", () => require("@nativescript/canvas/Dom/index").Circle)
+registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
+registerElement("Circle", () => require("@nativescript/canvas/Dom").Circle)
 ```
 
 == Angular
@@ -29,8 +29,8 @@ registerElement("Circle", () => require("@nativescript/canvas/Dom/index").Circle
 ```ts
 import { registerElement } from 'nativescript-vue';
 
-registerElement("Dom", () => require("@nativescript/canvas/Dom/index").Dom)
-registerElement("Circle", () => require("@nativescript/canvas/Dom/index").Circle)
+registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
+registerElement("Circle", () => require("@nativescript/canvas/Dom").Circle)
 ```
 
 == Vue
@@ -38,8 +38,8 @@ registerElement("Circle", () => require("@nativescript/canvas/Dom/index").Circle
 ```ts
 import { registerElement } from 'nativescript-vue';
 
-registerElement("Dom", () => require("@nativescript/canvas/Dom/index").Dom)
-registerElement("Circle", () => require("@nativescript/canvas/Dom/index").Circle)
+registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
+registerElement("Circle", () => require("@nativescript/canvas/Dom").Circle)
 ```
 
 == Solid
@@ -47,8 +47,8 @@ registerElement("Circle", () => require("@nativescript/canvas/Dom/index").Circle
 ```ts
 import { registerElement } from 'nativescript-vue';
 
-registerElement("Dom", () => require("@nativescript/canvas/Dom/index").Dom)
-registerElement("Circle", () => require("@nativescript/canvas/Dom/index").Circle)
+registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
+registerElement("Circle", () => require("@nativescript/canvas/Dom").Circle)
 ```
 
 == React
@@ -56,8 +56,8 @@ registerElement("Circle", () => require("@nativescript/canvas/Dom/index").Circle
 ```ts
 import { registerElement } from 'nativescript-vue';
 
-registerElement("Dom", () => require("@nativescript/canvas/Dom/index").Dom)
-registerElement("Circle", () => require("@nativescript/canvas/Dom/index").Circle)
+registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
+registerElement("Circle", () => require("@nativescript/canvas/Dom").Circle)
 ```
 
 == Svelte
@@ -65,8 +65,8 @@ registerElement("Circle", () => require("@nativescript/canvas/Dom/index").Circle
 ```ts
 import { registerElement } from 'nativescript-vue';
 
-registerElement("Dom", () => require("@nativescript/canvas/Dom/index").Dom)
-registerElement("Circle", () => require("@nativescript/canvas/Dom/index").Circle)
+registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
+registerElement("Circle", () => require("@nativescript/canvas/Dom").Circle)
 ```
 
 :::
