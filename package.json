@@ -19,7 +19,7 @@
     "build.canvas.ios.debug": "nx run canvas:build.native.ios.debug",
     "build.canvas.ios.framework.release": "nx run canvas:build.native.ios.framework.release",
     "build.canvas.ios.framework.debug": "nx run canvas:build.native.ios.framework.debug",
-    "docs:dev": "vitepress dev packages/canvas/docs",
+    "docs:dev": "vitepress dev packages/canvas/docs --host",
     "docs:build": "vitepress build packages/canvas/docs",
     "docs:preview": "vitepress preview packages/canvas/docs"
   },

@@ -12,6 +12,7 @@ export default defineConfig({
       },
     ],
   ],
+  cleanUrls: true,
   title: "NativeScript Canvas",
   description: "Native Canvas for NativeScript",
   themeConfig: {
