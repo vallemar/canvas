@@ -3,22 +3,33 @@
     <div class="flex flex-col justify-center items-center mt-12">
       <h3 class="text-xl">Preview with</h3>
       <div class="flex justify-center mt-6">
+        <div class="btn js">
+          <img style="height: 27px; width: 27px;"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" />
+          <span class="ml-1">
+            JS</span>
+        </div>
+        <div class="btn ts">
+          <img style="height: 27px; width: 27px;"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png" />
+          <span class="ml-1">
+            TS</span>
+        </div>
         <div class="btn vue">
-          <img style="height: 34px; width: 34px;" src="https://avatars.githubusercontent.com/u/6128107?s=200&v=4" />
-          <span>
-
+          <img style="height: 27px; width: 27px;"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png" />
+          <span class="ml-1">
             Vue.js</span>
         </div>
         <div class="btn angular">
-          <img style="height: 28px; width: 28px;"
+          <img style="height: 30px; width: 30px;"
             src="https://miro.medium.com/v2/resize:fit:2680/1*jlg3PXZ6PYdUGy40tXybKw.gif" />
           <span class="ml-1">
-
             Angular
           </span>
         </div>
         <div class="btn svelte">
-          <img style="height: 26px; width: 22px;"
+          <img style="height: 28px; width: 22px;"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png" />
           <span class="ml-1">
             Svelte
@@ -108,6 +119,20 @@ document.body.addEventListener('pointermove', updateCursor)
     linear-gradient(white, white) 50% 100% / 100% 2px no-repeat,
     linear-gradient(white, white) 0 50% / 2px 100% no-repeat,
     linear-gradient(white, white) 100% 50% / 2px 100% no-repeat;
+}
+
+.btn.js:before {
+  background:
+    radial-gradient(circle at calc(var(--x) * 1px) calc(var(--y) * 1px), #f7e018, transparent 15vmin),
+    transparent;
+  background-attachment: fixed;
+}
+
+.btn.ts:before {
+  background:
+    radial-gradient(circle at calc(var(--x) * 1px) calc(var(--y) * 1px), #2e79c7, transparent 15vmin),
+    transparent;
+  background-attachment: fixed;
 }
 
 .btn.vue:before {

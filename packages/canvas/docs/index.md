@@ -26,8 +26,6 @@ features:
 ---
 
 
-
-
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 import Preview from './.vitepress/theme/components/Preview.vue'
