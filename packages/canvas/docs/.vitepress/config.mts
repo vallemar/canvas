@@ -46,6 +46,7 @@ export default defineConfig({
         items: [
           { text: 'Circle', link: '/shapes/circle' },
           { text: 'Line', link: '/shapes/line' },
+          { text: 'Gradients', link: '/shapes/gradients' },
           { text: 'Path', link: '/shapes/path' },
           { text: 'Points', link: '/shapes/points' },
           { text: 'Rect', link: '/shapes/rect' },
