@@ -4,7 +4,7 @@
 
 <img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/linear_gradient.webp"/>
 
-## Props
+### Props
 
 | Name   | Type       | Description                                     |
 | :----- | :--------- | :---------------------------------------------- |
@@ -14,7 +14,8 @@
 
 
 
-## Register element
+### Register element
+
 :::tabs key:flavor
 == JS/TS
 
@@ -42,7 +43,7 @@ registerElement("LinearGradient", () => require("@nativescript/canvas/Dom").Line
 
 :::
 
-## Usage
+### Usage
 
 :::tabs key:flavor
 == JS/TS
@@ -80,7 +81,7 @@ registerElement("LinearGradient", () => require("@nativescript/canvas/Dom").Line
 
 <img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/two_point_conical_gradient.webp"/>
 
-## Props
+### Props
 
 | Name   | Type       | Description                                     |
 | :----- | :--------- | :---------------------------------------------- |
@@ -92,7 +93,7 @@ registerElement("LinearGradient", () => require("@nativescript/canvas/Dom").Line
 
 
 
-## Register element
+### Register element
 :::tabs key:flavor
 == JS/TS
 
@@ -120,7 +121,7 @@ registerElement("TwoPointConicalGradient", () => require("@nativescript/canvas/D
 
 :::
 
-## Usage
+### Usage
 
 :::tabs key:flavor
 == JS/TS
