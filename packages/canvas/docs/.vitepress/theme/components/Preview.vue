@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="flex flex-col justify-center items-center mt-12">
-      <h3 class="text-xl">Preview with</h3>
-      <div class="flex justify-center mt-6">
+    <div class="flex flex-col justify-center items-center mt-8">
+      <h3 class="text-xl font-bold">Preview with all flavors</h3>
+      <div class="flex justify-center flex-wrap mt-4">
         <div class="btn js">
           <img style="height: 27px; width: 27px;"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" />
@@ -90,6 +90,7 @@ document.body.addEventListener('pointermove', updateCursor)
   align-items: center;
   justify-items: center;
   flex-direction: col;
+  margin-top: 6px;
 
 }
 

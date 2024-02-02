@@ -6,7 +6,7 @@ hero:
   name: "NativeScript Canvas"
   text: "Native Canvas for NativeScript"
   _tagline: My great project tagline
-  actions:
+  _actions:
     - theme: brand
       text: Get Started
       link: /installation
@@ -14,15 +14,15 @@ hero:
       text: Examples
       link: /examples
 
-features:
-  - title: Totally Native
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Familiar
-    details: NativeScript Canvas implements the same API as html canvas
-  - title: WEBGL
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 2D & 3D
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  _features:
+    - title: Totally Native
+      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    - title: Familiar
+      details: NativeScript Canvas implements the same API as html canvas
+    - title: WEBGL
+      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    - title: 2D & 3D
+      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
 
