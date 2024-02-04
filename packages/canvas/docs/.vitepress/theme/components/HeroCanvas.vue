@@ -6,7 +6,7 @@
           <h1 class="name"><span class="clip">NativeScript Canvas</span></h1>
           <p class="text">Native Canvas for NativeScript</p><!--v-if-->
           <div class="actions flex justify-center">
-            <div class="action "><a class="VPButton medium brand" href="/installation">Get Started</a></div>
+            <div class="action"><a class="VPButton medium brand" href="/installation">Get Started</a></div>
             <div class="action"><a class="VPButton medium alt" href="/examples">Examples</a></div>
           </div>
         </div>
