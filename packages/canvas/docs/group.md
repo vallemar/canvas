@@ -3,13 +3,14 @@
 
 Group components can be deeply nested with one another. It can apply the following operations to its children:
 
+- [Paint Properties](#paint-properties).
 - [Transformations](#transformations).
 
-// TODO
-| Name       | Type          | Description                                                                                                                                                                                                                  |
-| :--------- | :------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| transform? | `Transform2d` | [Same API that's in React Native](https://reactnative.dev/docs/transforms). The default origin of the transformation is, however, different. It is the center object in NativeScript Canvas and the top-left corner in Skia. |
-| origin?    | `Point`       | Sets the origin of the transformation. This property is not inherited by its children.                                                                                                                                       |
+// TODO: set Transform type link
+| Name       | Type        | Description                                                                                                              |
+| :--------- | :---------- | :----------------------------------------------------------------------------------------------------------------------- |
+| transform? | `Transform` | The origin property is a helper to set the origin of the transformation. This property is not inherited by its children. |
+| origin?    | `Point`     | Sets the origin of the transformation. This property is not inherited by its children.                                   |
 
 
 ## Register element
@@ -70,8 +71,11 @@ registerElement("Group", () => require("@nativescript/canvas/Dom").Group)
 
 :::
 
-## Usage
+<br>
 
+## Paint Properties
+
+Its children will inherit all paint attributes applied to a group. These attributes can be properties like `color`, `paintStyle` or `strokeWidth`.
 
 :::tabs key:flavor
 == JS/TS
@@ -120,7 +124,48 @@ const r = ref(60);
 
 :::
 
+
 <img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/group.webp"/>
 
+<br>
 
 ## Transformations
+
+The origin property is a helper to set the origin of the transformation. This property is not inherited by its children.
+
+:::tabs key:flavor
+== JS/TS
+
+
+
+== Angular
+
+
+== Vue
+
+```vue
+<template>
+  <Dom>
+    <Fill color="#e8f4f8" />
+    <Group color="lightblue" :transform="[{ skewX: Math.PI / 6 }]">
+        <RoundedRect x="32" y="32" width="192" height="192" r="32" color="lightblue">
+            <Shadow dx="12" dy="12" blur="25" color="#93b8c4" />
+        </RoundedRect>
+    </Group>
+  </Dom>
+</template>
+```
+
+== Solid
+
+
+== React
+
+
+
+== Svelte
+
+
+
+:::
+<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/transformations.webp"/>
