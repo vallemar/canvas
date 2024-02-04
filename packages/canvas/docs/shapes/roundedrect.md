@@ -2,7 +2,6 @@
 
 Draws a rounded rectangle.
 
-<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/rounded_rect.webp"/>
 
 ## Props
 
@@ -179,3 +178,5 @@ registerElement("RoundedRect", () => require("@nativescript/canvas/Dom").Rounded
 ```
 
 :::
+
+<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/rounded_rect.webp"/>

@@ -2,8 +2,7 @@
 
 Draws a line between two points.
 
-<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/line.webp"/>
-
+## Props
 
 | Name        | Type     | Description                                     |
 | :---------- | :------- | :---------------------------------------------- |
@@ -104,3 +103,5 @@ registerElement("Line", () => require("@nativescript/canvas/Dom").Line)
 
 
 :::
+
+<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/line.webp"/>

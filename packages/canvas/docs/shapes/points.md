@@ -2,7 +2,6 @@
 
 Draws points and optionally draws the connection between them.
 
-<img height="300px" width="300px" src="/img/points.webp"/>
 
 ## Props
 
@@ -96,3 +95,4 @@ const points = [
 
 :::
 
+<img height="300px" width="300px" src="/img/points.webp"/>

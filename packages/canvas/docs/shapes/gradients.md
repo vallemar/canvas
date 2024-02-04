@@ -2,8 +2,6 @@
 
 ## Linear Gradient
 
-<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/linear_gradient.webp"/>
-
 ### Props
 
 | Name   | Type       | Description                                     |
@@ -76,10 +74,11 @@ registerElement("LinearGradient", () => require("@nativescript/canvas/Dom").Line
 
 :::
 
+<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/linear_gradient.webp"/>
+
 
 ## Two Point Conical Gradient
 
-<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/two_point_conical_gradient.webp"/>
 
 ### Props
 
@@ -159,3 +158,5 @@ registerElement("TwoPointConicalGradient", () => require("@nativescript/canvas/D
 
 
 :::
+
+<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/two_point_conical_gradient.webp"/>

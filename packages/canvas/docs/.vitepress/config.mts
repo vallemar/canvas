@@ -41,7 +41,7 @@ export default defineConfig({
         link: "/group",
       },
       {
-        collapsed: true,
+        collapsed: false,
         text: 'Shapes',
         items: [
           { text: 'Circle', link: '/shapes/circle' },
@@ -60,10 +60,6 @@ export default defineConfig({
       {
         text: 'Image',
         link: "/image",
-      },
-      {
-        text: 'Paint',
-        link: "/paint",
       },
       {
         text: 'Shadow',

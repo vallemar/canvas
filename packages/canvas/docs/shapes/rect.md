@@ -2,8 +2,6 @@
 
 Draws a rectangle.
 
-<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/rect.webp"/>
-
 ## Props
 
 | Name   | Type     | Description              |
@@ -137,3 +135,5 @@ registerElement("Rect", () => require("@nativescript/canvas/Dom").Rect)
 ```
 
 :::
+
+<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/rect.webp"/>

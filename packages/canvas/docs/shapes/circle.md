@@ -2,8 +2,6 @@
 
 Draws a circle.
 
-<img height="300px" width="300px" src="/img/circle.webp"/>
-
 ## Props
 
 | Name | Type     | Description  |
@@ -136,4 +134,6 @@ registerElement("Circle", () => require("@nativescript/canvas/Dom").Circle)
 ```
 
 :::
+
+<img height="300px" width="300px" src="/img/circle.webp"/>
 

@@ -2,8 +2,6 @@
 
 Images can be drawn by specifying the output rectangle and how the image should fit into that rectangle.
 
-<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/image.webp"/>
-
 ## Props
 // TODO ImageSource???
 | Name   | Type             | Description                                 |
@@ -176,3 +174,5 @@ const image = ImageSource.fromFileSync("~/assets/NativeScript_Logo.png");
 ```
 
 :::
+
+<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/image.webp"/>

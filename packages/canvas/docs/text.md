@@ -3,7 +3,6 @@
 The text component can be used to draw a simple text.
 Please note that the y origin of the Text is the bottom of the text, not the top.
 
-<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/text.webp"/>
 
 ## Props
 
@@ -75,4 +74,4 @@ registerElement("Text", () => require("@nativescript/canvas/Dom").Text)
 
 :::
 
-
+<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/text.webp"/>

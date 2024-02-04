@@ -2,7 +2,6 @@
 
 TODO
 
-<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/path.webp"/>
 
 ## Props
 
@@ -74,4 +73,5 @@ registerElement("Path", () => require("@nativescript/canvas/Dom").Path)
 
 :::
 
+<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/path.webp"/>
 

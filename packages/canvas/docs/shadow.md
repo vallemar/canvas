@@ -2,7 +2,6 @@
 
 TODO
 
-<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/shadow.webp"/>
 
 ## Props
 
@@ -77,4 +76,4 @@ registerElement("Shadow", () => require("@nativescript/canvas/Dom").Shadow)
 
 :::
 
-
+<img height="300px" width="300px" style="margin-bottom: 12px;" src="/img/shadow.webp"/>
