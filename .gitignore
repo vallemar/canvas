@@ -7,7 +7,7 @@
 
 # compiled docs
 /packages/canvas/docs/.vitepress/cache
-/xplat-metal-chaos-lines
+
 # dependencies
 node_modules
 package-lock.json

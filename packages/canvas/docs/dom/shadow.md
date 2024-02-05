@@ -44,6 +44,12 @@ registerElement("Shadow", () => require("@nativescript/canvas/Dom").Shadow)
 
 == Svelte
 
+```ts
+import { registerNativeViewElement } from 'svelte-native/dom'
+
+registerNativeViewElement("dom", () => require("@nativescript/canvas/Dom").Dom)
+registerNativeViewElement("shadow", () => require("@nativescript/canvas/Dom").Shadow)
+```
 
 :::
 

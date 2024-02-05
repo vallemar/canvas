@@ -39,6 +39,12 @@ registerElement("Circle", () => require("@nativescript/canvas/Dom").Circle)
 
 == Svelte
 
+```ts
+import { registerNativeViewElement } from 'svelte-native/dom'
+
+registerNativeViewElement("dom", () => require("@nativescript/canvas/Dom").Dom)
+registerNativeViewElement("circle", () => require("@nativescript/canvas/Dom").Circle)
+```
 
 :::
 

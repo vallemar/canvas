@@ -42,6 +42,12 @@ registerElement("Line", () => require("@nativescript/canvas/Dom").Line)
 
 == Svelte
 
+```ts
+import { registerNativeViewElement } from 'svelte-native/dom'
+
+registerNativeViewElement("dom", () => require("@nativescript/canvas/Dom").Dom)
+registerNativeViewElement("line", () => require("@nativescript/canvas/Dom").Line)
+```
 
 :::
 

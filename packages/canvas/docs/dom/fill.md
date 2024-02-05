@@ -28,7 +28,7 @@ Fill canvas or group.
 import { registerElement } from 'nativescript-vue';
 
 registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Fill", () => require("@nativescript/canvas/Dom").Image)
+registerElement("Fill", () => require("@nativescript/canvas/Dom").Fill)
 ```
 
 == Solid
@@ -39,6 +39,12 @@ registerElement("Fill", () => require("@nativescript/canvas/Dom").Image)
 
 == Svelte
 
+```ts
+import { registerNativeViewElement } from 'svelte-native/dom'
+
+registerNativeViewElement("dom", () => require("@nativescript/canvas/Dom").Dom)
+registerNativeViewElement("fill", () => require("@nativescript/canvas/Dom").Fill)
+```
 
 :::
 

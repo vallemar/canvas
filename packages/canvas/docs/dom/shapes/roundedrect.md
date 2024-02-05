@@ -44,6 +44,12 @@ registerElement("RoundedRect", () => require("@nativescript/canvas/Dom").Rounded
 
 == Svelte
 
+```ts
+import { registerNativeViewElement } from 'svelte-native/dom'
+
+registerNativeViewElement("dom", () => require("@nativescript/canvas/Dom").Dom)
+registerNativeViewElement("roundedRect", () => require("@nativescript/canvas/Dom").RoundedRect)
+```
 
 :::
 

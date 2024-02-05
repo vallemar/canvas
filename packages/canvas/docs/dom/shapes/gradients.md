@@ -43,6 +43,12 @@ registerElement("LinearGradient", () => require("@nativescript/canvas/Dom").Line
 
 == Svelte
 
+```ts
+import { registerNativeViewElement } from 'svelte-native/dom'
+
+registerNativeViewElement("dom", () => require("@nativescript/canvas/Dom").Dom)
+registerNativeViewElement("linearGradient", () => require("@nativescript/canvas/Dom").LinearGradient)
+```
 
 :::
 
@@ -122,6 +128,12 @@ registerElement("TwoPointConicalGradient", () => require("@nativescript/canvas/D
 
 == Svelte
 
+```ts
+import { registerNativeViewElement } from 'svelte-native/dom'
+
+registerNativeViewElement("dom", () => require("@nativescript/canvas/Dom").Dom)
+registerNativeViewElement("twoPointConicalGradient", () => require("@nativescript/canvas/Dom").TwoPointConicalGradient)
+```
 
 :::
 

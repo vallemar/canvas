@@ -43,6 +43,12 @@ registerElement("Group", () => require("@nativescript/canvas/Dom").Group)
 
 == Svelte
 
+```ts
+import { registerNativeViewElement } from 'svelte-native/dom'
+
+registerNativeViewElement("dom", () => require("@nativescript/canvas/Dom").Dom)
+registerNativeViewElement("group", () => require("@nativescript/canvas/Dom").Group)
+```
 
 :::
 

@@ -43,6 +43,12 @@ registerElement("Rect", () => require("@nativescript/canvas/Dom").Rect)
 
 == Svelte
 
+```ts
+import { registerNativeViewElement } from 'svelte-native/dom'
+
+registerNativeViewElement("dom", () => require("@nativescript/canvas/Dom").Dom)
+registerNativeViewElement("rect", () => require("@nativescript/canvas/Dom").Rect)
+```
 
 :::
 
