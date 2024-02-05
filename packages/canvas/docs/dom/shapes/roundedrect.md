@@ -18,21 +18,14 @@ Draws a rounded rectangle.
 :::tabs key:flavor
 == JS/TS
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("RoundedRect", () => require("@nativescript/canvas/Dom").RoundedRect)
+```xml
+<Page xmlns:ui="@nativescript/canvas/dom/index" xmlns="http://schemas.nativescript.org/tns.xsd">
+     <!-- ... -->
+</Page>
 ```
 
 == Angular
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("RoundedRect", () => require("@nativescript/canvas/Dom").RoundedRect)
-```
 
 == Vue
 
@@ -45,30 +38,12 @@ registerElement("RoundedRect", () => require("@nativescript/canvas/Dom").Rounded
 
 == Solid
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("RoundedRect", () => require("@nativescript/canvas/Dom").RoundedRect)
-```
 
 == React
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("RoundedRect", () => require("@nativescript/canvas/Dom").RoundedRect)
-```
 
 == Svelte
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("RoundedRect", () => require("@nativescript/canvas/Dom").RoundedRect)
-```
 
 :::
 

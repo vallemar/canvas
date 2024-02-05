@@ -95,11 +95,11 @@ export default defineConfig({
       provider: 'local',
     },
     editLink: {
-
       pattern: 'https://github.com/NativeScript/canvas/edit/docs/:path',
       text: 'Edit this page on GitHub'
-    }
+    },
   },
+  lastUpdated: true,
   markdown: {
     config(md) {
       md.use(tabsMarkdownPlugin)

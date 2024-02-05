@@ -18,21 +18,14 @@ Images can be drawn by specifying the output rectangle and how the image should 
 :::tabs key:flavor
 == JS/TS
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("ImageCanvas", () => require("@nativescript/canvas/Dom").Image)
+```xml
+<Page xmlns:ui="@nativescript/canvas/dom/index" xmlns="http://schemas.nativescript.org/tns.xsd">
+     <!-- ... -->
+</Page>
 ```
 
 == Angular
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("ImageCanvas", () => require("@nativescript/canvas/Dom").Image)
-```
 
 == Vue
 
@@ -45,30 +38,12 @@ registerElement("ImageCanvas", () => require("@nativescript/canvas/Dom").Image)
 
 == Solid
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("ImageCanvas", () => require("@nativescript/canvas/Dom").Image)
-```
 
 == React
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("ImageCanvas", () => require("@nativescript/canvas/Dom").Image)
-```
 
 == Svelte
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("ImageCanvas", () => require("@nativescript/canvas/Dom").Image)
-```
 
 :::
 
@@ -77,18 +52,10 @@ registerElement("ImageCanvas", () => require("@nativescript/canvas/Dom").Image)
 :::tabs key:flavor
 == JS/TS
 
-```vue
-<script lang="ts" setup>
-import { ImageSource } from '@nativescript/core';
-
-const image = ImageSource.fromFileSync("~/assets/NativeScript_Logo.png");
-</script>
-
-<template>
-  <Dom>
-    <ImageCanvas :image="image" fit="contain" x="150" y="0" width="256" height="256" />
-  </Dom>
-</template>
+```xml
+<Page xmlns:ui="@nativescript/canvas/dom/index" xmlns="http://schemas.nativescript.org/tns.xsd">
+     <!-- ... -->
+</Page>
 ```
 
 == Angular

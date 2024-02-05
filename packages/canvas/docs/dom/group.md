@@ -17,21 +17,14 @@ Group components can be deeply nested with one another. It can apply the followi
 :::tabs key:flavor
 == JS/TS
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Group", () => require("@nativescript/canvas/Dom").Group)
+```xml
+<Page xmlns:ui="@nativescript/canvas/dom/index" xmlns="http://schemas.nativescript.org/tns.xsd">
+     <!-- ... -->
+</Page>
 ```
 
 == Angular
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Group", () => require("@nativescript/canvas/Dom").Group)
-```
 
 == Vue
 
@@ -44,30 +37,12 @@ registerElement("Group", () => require("@nativescript/canvas/Dom").Group)
 
 == Solid
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Group", () => require("@nativescript/canvas/Dom").Group)
-```
 
 == React
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Group", () => require("@nativescript/canvas/Dom").Group)
-```
 
 == Svelte
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Group", () => require("@nativescript/canvas/Dom").Group)
-```
 
 :::
 

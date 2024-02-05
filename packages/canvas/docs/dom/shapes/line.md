@@ -16,21 +16,14 @@ Draws a line between two points.
 :::tabs key:flavor
 == JS/TS
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Line", () => require("@nativescript/canvas/Dom").Line)
+```xml
+<Page xmlns:ui="@nativescript/canvas/dom/index" xmlns="http://schemas.nativescript.org/tns.xsd">
+     <!-- ... -->
+</Page>
 ```
 
 == Angular
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Line", () => require("@nativescript/canvas/Dom").Line)
-```
 
 == Vue
 
@@ -43,30 +36,12 @@ registerElement("Line", () => require("@nativescript/canvas/Dom").Line)
 
 == Solid
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Line", () => require("@nativescript/canvas/Dom").Line)
-```
 
 == React
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Line", () => require("@nativescript/canvas/Dom").Line)
-```
 
 == Svelte
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Line", () => require("@nativescript/canvas/Dom").Line)
-```
 
 :::
 

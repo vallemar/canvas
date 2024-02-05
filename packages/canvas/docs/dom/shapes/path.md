@@ -15,6 +15,11 @@ TODO
 :::tabs key:flavor
 == JS/TS
 
+```xml
+<Page xmlns:ui="@nativescript/canvas/dom/index" xmlns="http://schemas.nativescript.org/tns.xsd">
+     <!-- ... -->
+</Page>
+```
 
 == Angular
 

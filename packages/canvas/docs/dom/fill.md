@@ -13,21 +13,14 @@ Fill canvas or group.
 :::tabs key:flavor
 == JS/TS
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Fill", () => require("@nativescript/canvas/Dom").Fill)
+```xml
+<Page xmlns:ui="@nativescript/canvas/dom/index" xmlns="http://schemas.nativescript.org/tns.xsd">
+     <!-- ... -->
+</Page>
 ```
 
 == Angular
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Fill", () => require("@nativescript/canvas/Dom").Fill)
-```
 
 == Vue
 
@@ -40,30 +33,12 @@ registerElement("Fill", () => require("@nativescript/canvas/Dom").Image)
 
 == Solid
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Fill", () => require("@nativescript/canvas/Dom").Image)
-```
 
 == React
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Fill", () => require("@nativescript/canvas/Dom").Image)
-```
 
 == Svelte
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Fill", () => require("@nativescript/canvas/Dom").Image)
-```
 
 :::
 

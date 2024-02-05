@@ -17,21 +17,14 @@ Draws a rectangle.
 :::tabs key:flavor
 == JS/TS
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Rect", () => require("@nativescript/canvas/Dom").Rect)
+```xml
+<Page xmlns:ui="@nativescript/canvas/dom/index" xmlns="http://schemas.nativescript.org/tns.xsd">
+     <!-- ... -->
+</Page>
 ```
 
 == Angular
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Rect", () => require("@nativescript/canvas/Dom").Rect)
-```
 
 == Vue
 
@@ -44,30 +37,12 @@ registerElement("Rect", () => require("@nativescript/canvas/Dom").Rect)
 
 == Solid
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Rect", () => require("@nativescript/canvas/Dom").Rect)
-```
 
 == React
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Rect", () => require("@nativescript/canvas/Dom").Rect)
-```
 
 == Svelte
 
-```ts
-import { registerElement } from 'nativescript-vue';
-
-registerElement("Dom", () => require("@nativescript/canvas/Dom").Dom)
-registerElement("Rect", () => require("@nativescript/canvas/Dom").Rect)
-```
 
 :::
 
