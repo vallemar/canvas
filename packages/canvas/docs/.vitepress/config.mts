@@ -37,37 +37,53 @@ export default defineConfig({
         link: "/polyfills",
       },
       {
-        text: 'Group',
-        link: "/group",
-      },
-      {
+        text: 'Dom',
+        link: "/dom/index",
         collapsed: false,
-        text: 'Shapes',
         items: [
-          { text: 'Circle', link: '/shapes/circle' },
-          { text: 'Line', link: '/shapes/line' },
-          { text: 'Gradients', link: '/shapes/gradients' },
-          { text: 'Path', link: '/shapes/path' },
-          { text: 'Points', link: '/shapes/points' },
-          { text: 'Rect', link: '/shapes/rect' },
-          { text: 'RoundedRect', link: '/shapes/roundedrect' },
+
+          {
+            text: 'Group',
+            link: "/dom/group",
+          },
+          {
+            text: 'Shapes',
+            collapsed: false,
+            items: [
+              { text: 'Circle', link: '/dom/shapes/circle' },
+              { text: 'Line', link: '/dom/shapes/line' },
+              { text: 'Gradients', link: '/dom/shapes/gradients' },
+              { text: 'Path', link: '/dom/shapes/path' },
+              { text: 'Points', link: '/dom/shapes/points' },
+              { text: 'Rect', link: '/dom/shapes/rect' },
+              { text: 'RoundedRect', link: '/dom/shapes/roundedrect' },
+            ],
+          },
+          {
+            text: 'Fill',
+            link: "/dom/fill",
+          },
+          {
+            text: 'Image',
+            link: "/dom/image",
+          },
+          {
+            text: 'Shadow',
+            link: "/dom/shadow",
+          },
+          {
+            text: 'Text',
+            link: "/dom/text",
+          },
+        ]
+      },
+      {
+        collapsed: true,
+        text: 'Charts',
+        items: [
+          { text: 'ECharts', link: '/charts/ECharts' },
+          { text: 'Chart.js', link: '/charts/chartjs' },
         ],
-      },
-      {
-        text: 'Fill',
-        link: "/fill",
-      },
-      {
-        text: 'Image',
-        link: "/image",
-      },
-      {
-        text: 'Shadow',
-        link: "/shadow",
-      },
-      {
-        text: 'Text',
-        link: "/text",
       },
     ],
 
@@ -78,6 +94,11 @@ export default defineConfig({
     search: {
       provider: 'local',
     },
+    editLink: {
+
+      pattern: 'https://github.com/NativeScript/canvas/edit/docs/:path',
+      text: 'Edit this page on GitHub'
+    }
   },
   markdown: {
     config(md) {
