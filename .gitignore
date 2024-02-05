@@ -7,6 +7,7 @@
 
 # compiled docs
 /packages/canvas/docs/.vitepress/cache
+/packages/canvas/docs/.vitepress/dist
 
 # dependencies
 node_modules

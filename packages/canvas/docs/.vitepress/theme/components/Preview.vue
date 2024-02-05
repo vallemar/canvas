@@ -63,20 +63,23 @@
   </div>
 </template>
 <script setup>
-import { onBeforeMount, ref } from "vue"
+import { onMounted, ref } from "vue"
 import { useWindowSize } from '@vueuse/core'
 
 const { width } = useWindowSize();
 const isChromium = ref(true);
-onBeforeMount(() => {
+
+
+onMounted(() => {
   isChromium.value = !!window.chrome
+  document.body.addEventListener('pointermove', updateCursor)
 })
+
 const updateCursor = ({ x, y }) => {
   document.documentElement.style.setProperty('--x', x)
   document.documentElement.style.setProperty('--y', y)
 }
 
-document.body.addEventListener('pointermove', updateCursor)
 </script>
 <style scoped>
 .btn {
