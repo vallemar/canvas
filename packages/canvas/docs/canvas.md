@@ -49,3 +49,47 @@ registerNativeViewElement('canvas', () => require('@nativescript/canvas').Canvas
 
 :::
 
+
+## Usage
+
+:::tabs key:flavor
+== JS/TS
+
+
+
+== Angular
+
+
+
+== Vue
+
+```vue
+<script lang="ts" setup>
+import { EventData } from '@nativescript/core';
+import type { Canvas } from '@nativescript/canvas';
+
+function onCanvasReady(event: EventData) {
+  const canvas = event.object as Canvas;
+  // ...
+}
+</script>
+
+<template>
+  <Canvas @ready="onCanvasReady"></Canvas>
+</template>
+```
+
+== Solid
+
+
+
+== React
+
+
+
+== Svelte
+
+
+
+:::
+
