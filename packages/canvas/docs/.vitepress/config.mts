@@ -51,6 +51,7 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'Circle', link: '/dom/shapes/circle' },
+              { text: 'Oval', link: '/dom/shapes/oval' },
               { text: 'Line', link: '/dom/shapes/line' },
               { text: 'Gradients', link: '/dom/shapes/gradients' },
               { text: 'Path', link: '/dom/shapes/path' },
