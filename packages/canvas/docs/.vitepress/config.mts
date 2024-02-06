@@ -19,10 +19,9 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Get Started', link: '/installation' },
-      { text: 'Playground', link: 'https://stackblitz.com/edit/nativescrip-use-vue?file=src%2Fapp.ts' },
+      { text: 'Guide', link: '/installation' },
+      //{ text: 'Playground', link: 'https://stackblitz.com/edit/nativescrip-use-vue?file=src%2Fapp.ts' },
     ],
-
     sidebar: [
       {
         text: 'Guide',

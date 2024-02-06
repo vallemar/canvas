@@ -44,7 +44,7 @@ const members = [
 ]
 </script>
 
-<Preview />
+<!-- <Preview /> -->
 
 <div class="flex justify-center mt-12">
 <h3 class="text-2xl">Team</h3>
