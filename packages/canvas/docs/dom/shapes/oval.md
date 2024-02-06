@@ -1,4 +1,4 @@
-# Circle
+# Oval
 
 Draws an oval based on its bounding rectangle.
 
