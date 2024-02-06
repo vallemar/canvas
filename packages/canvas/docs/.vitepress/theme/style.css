@@ -48,13 +48,14 @@
 @tailwind utilities;
 
 :root {
-
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: var(--vp-c-indigo-1);
+  --vp-c-brand-1: #65adf1;
+  /*   --vp-c-brand-1: var(--vp-c-indigo-1); */
+
   --vp-c-brand-2: var(--vp-c-indigo-2);
   --vp-c-brand-3: var(--vp-c-indigo-3);
   --vp-c-brand-soft: var(--vp-c-indigo-soft);
@@ -73,6 +74,24 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
+}
+
+.dark {
+  --ns-doc-bg: #0f162a;
+  --ns-doc-bg-secondary: #182235;
+  --vp-c-bg: var(--ns-doc-bg);
+  --vp-sidebar-bg-color: var(--ns-doc-bg);
+  --vp-code-block-bg: var(--ns-doc-bg-secondary);
+  --vp-plugin-tabs-tab-bg: var(--ns-doc-bg-secondary) !important;
+  --vp-c-bg-soft: var(--ns-doc-bg-secondary);
+  --vp-c-bg-elv: var(--ns-doc-bg-secondary);
+  --vp-c-bg-alt: var(--ns-doc-bg-secondary);
+  --vp-c-brand-1: #2eb8d2;
+}
+
+/* .plugin-tabs--tab[aria-selected='true']::after{ */
+.plugin-tabs--tab[aria-controls*="*JS/TS*"]::after {
+  background-color: red
 }
 
 /**

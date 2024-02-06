@@ -22,6 +22,7 @@
 import DefaultTheme from 'vitepress/theme'
 import { onContentUpdated } from "vitepress"
 import { onMounted, onUpdated, ref } from "vue"
+
 const canvas = ref(null)
 onContentUpdated((args) => {
   if (window.location.pathname === "/") {
@@ -94,9 +95,7 @@ function runAnimation() {
     frame += 1.5;
     //18171c
     ctx.shadowBlur = 0;
-    //ctx.fillStyle = 'rgba(32 33 38, .04)';
-
-    ctx.fillStyle = 'rgba(0, 0, 0, .2)';
+    ctx.fillStyle = document.querySelector(".dark") ? '#182235' : 'rgba(32 33 38, .04)';
     ctx.fillRect(0, 0, w, h);
     //ctx.shadowBlur = 0;
 
@@ -138,8 +137,8 @@ function runAnimation() {
   color: var(--vp-home-hero-name-color);
 }
 
-.name,
-.text {
+.VPHero .name,
+.VPHero .text {
   max-width: 392px;
   letter-spacing: -0.4px;
   line-height: 40px;
@@ -150,8 +149,8 @@ function runAnimation() {
 
 @media (min-width: 640px) {
 
-  .name,
-  .text {
+  .VPHero .name,
+  .VPHero .text {
     max-width: 576px;
     line-height: 56px;
     font-size: 48px;
@@ -161,11 +160,15 @@ function runAnimation() {
 
 @media (min-width: 960px) {
 
-  .name,
-  .text {
+  .VPHero .name,
+  .VPHero .text {
     line-height: 64px;
     font-size: 56px;
   }
+}
+
+.VPHero .text {
+  color: #fffff5db;
 }
 
 .actions {

@@ -77,6 +77,17 @@ export default defineConfig({
           },
         ]
       },
+
+      {
+        collapsed: false,
+        text: 'Pugins',
+        items: [
+          //  { text: 'ECharts', link: '/charts/ECharts' },
+          { text: 'Three.js', link: '/plugins/threejs' },
+          { text: 'PixiJS', link: '/plugins/pixijs' },
+          { text: 'Phaser', link: '/plugins/phaser' },
+        ],
+      },
       {
         collapsed: true,
         text: 'Charts',
